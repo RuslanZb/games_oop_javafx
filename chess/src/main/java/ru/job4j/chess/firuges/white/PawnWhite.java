@@ -3,8 +3,8 @@ package ru.job4j.chess.firuges.white;
 import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.Figure;
 
-/**
- * //TODO add comments.
+/*
+ * TODO add comments.
  *
  * @author Petr Arsentev (parsentev@yandex.ru)
  * @version $Id$

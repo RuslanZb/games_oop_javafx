@@ -5,8 +5,8 @@ import ru.job4j.packman.firuges.Cell;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * //TODO add comments.
+/*
+ * TODO add comments.
  *
  * @author Petr Arsentev (parsentev@yandex.ru)
  * @version $Id$
