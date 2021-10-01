@@ -2,16 +2,16 @@ package ru.job4j.puzzle;
 
 public class Win {
     public static boolean check(int[][] board) {
-        boolean result = false;
+        boolean rsl = false;
         for (int i = 0; i < board.length; i++) {
             if (Win.extractDiagonal(board)[i] == 1
                     && (Win.monoHorizontal(board, i)
                     || Win.monoVertical(board, i))) {
-                result = true;
+                rsl = true;
                 break;
             }
         }
-        return result;
+        return rsl;
     }
 
     public static boolean monoHorizontal(int[][] board, int row) {
