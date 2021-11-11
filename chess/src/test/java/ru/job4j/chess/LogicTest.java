@@ -13,7 +13,6 @@ import ru.job4j.chess.firuges.black.PawnBlack;
 
 public class LogicTest {
 
-
     @Test(expected = ImpossibleMoveException.class)
     public void impossibleMove()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
